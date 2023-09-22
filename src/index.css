@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+}
+.covidContainerFirst{
+    display: flex;
+    /* border: solid red 1px; */
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    gap: 5px;
+}
+
+.covidContainerSecond{
+    display: flex;
+    /* border: solid red 1px; */
+    justify-content: space-evenly;
+    margin: 54px 0px;
+    gap: 5px;
+}
+.covidContainerFirst .card1{
+    cursor: pointer;
+    font-size: 2.3rem;
+}
+.mainHeading{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    margin: 46px 9px;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+.head{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: -11px 0px;
+}
+/* .head{
+    display: flex;
+    justify-content: baseline;
+} */
+.our{
+    margin: 34px 7px;
+    font-size: 14px;
+}
+.country{
+    font-size: 27px;
+    /* font-weight: bold; */
+}
+.indian{
+    margin: -1px 0px 0px 44px;
+    font-weight: bold;
+    /* font-size: 41px; */
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px rgb(53, 46, 46);
+}
+.recovered{
+    margin: 4px 10px 0px 19px;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px rgb(72, 57, 57);
+}
+
+.confirmed{
+    margin: -8px 10px 0px -35px;
+    /* margin-left: 3rem; */
+    padding-left: 3rem;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px rgb(78, 46, 46);
+}
+
+.active{
+    margin: -5px 10px 0px 54px;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px rgb(28, 19, 19);
+}
+
+.deaths{
+    margin: -5px 10px 0px 49px;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px rgb(28, 19, 19);
+}
+.lastupdatedtime{
+    margin: -12px 10px 0px 55px;
+    font-weight: bold;
+     font-size: 3.5rem;
+    text-shadow: 5px 5px 5px rgb(28, 19, 19);
+}
+
+.card1{
+    /* border: solid black 1px; */
+    height: 13rem;
+    width: 22.2rem;
+    background-color: rgb(79, 125, 231);
+}
+
+.card2{
+    /* border: solid black 1px; */
+    background-color: green;
+    height: 13rem;
+    width: 22.2rem;
+}
+
+.card3{
+    /* border: solid black 1px; */
+    background-color: rgb(237, 233, 149);
+    height: 13rem;
+    width: 22.2rem;
+}
+
+.card4{
+    /* border: solid black 1px; */
+    background-color: rgb(237, 128, 88);
+    height: 13rem;
+    width: 22.2rem;
+}
+
+.card5{
+    /* border: solid black 1px; */
+    background-color: rgb(0, 115, 255);
+    height: 13rem;
+    width: 22.2rem;
+}
+
+.card6{
+    /* border: solid black 1px; */
+    background-color: rgb(228, 202, 138);
+    height: 13rem;
+    width: 22.2rem;
+}
+
+
+.latestCard:hover {
+    background-color: white;
+    font-size: 243px;
+}
+
+.covidContainerFirst .card2 {
+    cursor: pointer;
+}
+
+.covidContainerFirst .card3 {
+    cursor: pointer;
+}
+
+.covidContainerSecond .card4 {
+    cursor: pointer;
+}
+
+.covidContainerSecond .card5 {
+    cursor: pointer;
+}
+.covidContainerSecond .card6 {
+    cursor: pointer;
+}
+
+.code a{
+    /* color: white; */
+    float: right;
+    margin: 0px 0px 0px 0px;
+    /* text-decoration: none; */
+}
+
+.code a:hover{
+    color: red;
+}
